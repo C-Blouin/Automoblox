@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Page Title -->
+    <title>Automoblox | Support</title>
+    <!-- Normalize CSS before applying custom styles. -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Linking Bootstrap framework library stylings. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!-- Linking Custom Typekit -->
+    <link rel="stylesheet" href="https://use.typekit.net/gxa6ted.css">
+
+    <!-- Linking Custom Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <!-- Start of Header  -->
+    <header id="header-nav">
+        <!-- Start of Primary Header Navigation -->
+        <nav class="navbar navbar-expand-xl navbar-light justify-content-between align-items-center" role="navigation" data-bs-theme="light">
+            <div class="container-fluid">
+                <!-- Start of Hamburger Toggle Button Icon -->
+                <button class="navbar-toggler d-xl-none" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- End of Hamburger Toggle Button Icon -->
+                <div class="offcanvas offcanvas-end" id="navbarNav"> 
+                    <div class="offcanvas-body">                       
+                        <a href="index.html"><img src="images/automoblox-logo.png" width="180" class="navbar-brand logo" alt="Automoblox Logo Graphic"></img></a>
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#features">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="gallery.html">Gallery</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="support.html">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- End of .offcanvas-body -->
+                </div> 
+                <!-- End of .offcanvas -->
+            </div>
+            <!-- End of .container-fluid -->
+        </nav>
+        <!-- End of Primary Header Navigation -->
+    </header>
+    <!-- End of Header -->
+
+    <section id="contact">
+        <div class="form-wrapper">
+            <h1 class="gallery-hidden">Contact Us!</h1>
+            <p>
+                The Automoblox team is always happy to help! Feel free to reach out to us with any questions or concerns!
+            </p>
+            <form id="contact-form">
+                <div class="row">
+                    <input type="text" class="form-control" id="fullname" placeholder="Full Name" maxlength="50" required>
+                </div>
+                <div class="row">
+                    <input type="tel" class="form-control" id="phone" placeholder="Phone Number" maxlength="15" required>
+                </div>
+                <div class="row">
+                    <input type="email" class="form-control" id="email" placeholder="Email" maxlength="60" required>
+                </div>
+                <div class="row">
+                    <textarea class="form-control" id="message" rows="5" placeholder="Enter your message here!"></textarea>
+                </div>
+                <button type="submit" title="Order QualityLand" id="order-button" class="btn">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+    
+    <section id="faq">
+        <div>
+            <h2>Frequently Asked Questions</h2>
+            <p>Here are some of the most commonly asked questions here at Automoblox!</p>
+        </div>
+        <!-- Start of About Author Accordion -->
+        <div class="gallery-hidden accordion accordion-flush" id="support-accordion">
+            <!-- Start of About Author Accordion Item #1 -->
+            <article class="accordion-item">
+                <!-- Item #1 Header Contents -->
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Are Automoblox toys safe for children?
+                    </button>
+                </h2>
+                <!-- End of Item #1 Header Contents -->
+
+                <!-- Item #1 Body Content -->
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="support-accordion">
+                    <div class="accordion-body">
+                    <p>Safety is our top priority. Automoblox toys are made from non-toxic, child-safe materials and undergo rigorous testing to comply with safety standards, ensuring your child's safety.</p>
+                    </div>
+                </div>
+                <!-- End of Item #1 Body Contents -->
+            </article>
+            <!-- End of About Author Accordion Item #1 -->
+
+            <!-- Start of About Author Accordion Item #2 -->
+            <article class="accordion-item">
+
+                <!-- Item #2 Header Contents -->
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Can I purchase replacement parts for my Automoblox?
+                    </button>
+                </h2>
+                <!-- End of Item #2 Header Contents -->
+
+                <!-- Item #2 Body Content -->
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="support-accordion">
+                    <div class="accordion-body">
+                    <p>Absolutely! We understand that pieces may go missing during the excitement of play. Contact our friendly support team, and we'll assist you with any specific replacement parts necessary to keep creative fun moving alone!</p>
+                    </div>
+                </div>
+                <!-- End of Item #2 Body Contents -->
+            </article>
+            <!-- End of About Author Accordion Item #2 -->
+
+            <!-- Start of About Author Accordion Item #3 -->
+            <article class="accordion-item">
+
+                <!-- Item #3 Header Contents -->
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    What age group is suitable for Automoblox?
+                    </button>
+                </h2>
+                <!-- End of Item #3 Header Contents -->
+
+                <!-- Item #3 Body Content -->
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="support-accordion">
+                    <div class="accordion-body">
+                    <p>Automoblox is for children aged three and above. The modular design provides a pleasant experience for all age groups, including adults who appreciate hands-on creativity, can join in on the experience.</p>
+                    </div>
+                </div>
+                <!-- End of Item #3 Body Contents -->
+            </article>
+            <!-- End of About Author Accordion Item #3 -->
+
+            <!-- Start of About Author Accordion Item #4 -->
+            <article class="accordion-item">
+
+                <!-- Item #4 Header Contents -->
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    How do I clean and care for Automoblox cars?
+                    </button>
+                </h2>
+                <!-- End of Item #4 Header Contents -->
+
+                <!-- Item #4 Body Content -->
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="support-accordion">
+                    <div class="accordion-body">
+                        <p>Cleaning your Automoblox is simple. Wipe the wooden surfaces with a damp cloth. Avoid submerging the toys in water or using harsh cleaning agents to prevent damaging the wood and quality finishes. Take care of your Automoblox to ensure the creative adventures can continue!</p>                            
+                    </div>
+                </div>
+                <!-- End of Item #4 Body Contents -->
+            </article>
+            <!-- End of About Author Accordion Item #4 -->
+
+            <!-- Start of About Author Accordion Item #4 -->
+            <article class="accordion-item">
+
+                <!-- Item #4 Header Contents -->
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Are there educational benefits of Automoblox?
+                    </button>
+                </h2>
+                <!-- End of Item #4 Header Contents -->
+
+                <!-- Item #4 Body Content -->
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="support-accordion">
+                    <div class="accordion-body">
+                        <p>Yes. Automoblox toys inspire children to develop their cognitive abilities, fine motor skills, and creativity. Through crafting creations, children engage in problem-solving, spatial awareness, and imaginative thinking, opening avenues of possibilities.</p>                            
+                    </div>
+                </div>
+                <!-- End of Item #4 Body Contents -->
+            </article>
+            <!-- End of About Author Accordion Item #4 -->
+        </div>
+        <!-- End of About Author Accordion -->
+    </section>
+
+    <!-- Start of Footer -->
+    <footer>
+        <a href="index.html">
+            <img src="images/automoblox-logo.png" alt="Automoblox Logo" width="120" class="logo"/>
+        </a>
+        <!-- Start of Footer Nav -->
+        <nav class="navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#features">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="support.html">Support</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- End of Footer Nav -->
+    </footer>
+    <!-- End of Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
+ 
+ 
