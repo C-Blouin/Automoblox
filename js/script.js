@@ -70,9 +70,9 @@ let headerNav = document.getElementById('header-nav');
 window.addEventListener('scroll', function () {
     // Track the scroll position based on the windows screenY axis.
     let scrollTop = window.screenY || document.documentElement.scrollTop;
-    // IF the scroll position is greater than 0 (the default window position), the header position will be set to -120px to hide it from the viewport.
+    // IF the scroll position is greater than 0 (the default window position), the header position will be set to -160px to hide it from the viewport.
     if (scrollTop > scrollPosition) {
-        headerNav.style.cssText = 'top: -120px';
+        headerNav.style.cssText = 'top: -160px';
     }
     // ELSE, the header position will be set to 0, to display it in the viewport.
     else {
