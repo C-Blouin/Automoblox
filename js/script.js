@@ -82,3 +82,14 @@ window.addEventListener('scroll', function () {
     scrollPosition = scrollTop;
     headerNav.style.position = 'fixed';
 });
+
+
+// Selecting the gallerySlider for the automoblox car collection, setting some custom carousel options.
+const gallerySlider = document.getElementById('gallerySlider');
+const carousel = new bootstrap.Carousel(gallerySlider, {
+    pause: false,
+    touch: true,
+    wrap: true,
+    // Prevents the carousel from sliding to the next slide automatically on all devices. I don't want the slide effect on mobile specifically as it's not a great user experience.
+    ride: false
+});

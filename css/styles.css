@@ -2047,3 +2047,27 @@ footer .nav-link:hover {
 .accordion-item:hover .accordion-button {
   color: var(--primary-color);
 }
+
+/* Display the prev and next carousel buttons on full desktop views. */
+.carousel-control-prev,
+.carousel-control-next {
+  top: -35rem;
+  width: 5%;
+}
+
+.carousel-control-next {
+  right: -7rem;
+}
+
+.carousel-control-prev {
+  left: -7rem;
+}
+
+/* Remove the next and prev buttons when on screens smaller than native 1920px to prevent overflow. */
+
+@media screen and (max-width: 1900px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+}
